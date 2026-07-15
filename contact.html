@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <h1>Contact Our Team</h1>
+    <p>Please fill out the form below, and we will get back to you as soon as possible.</p>
+    
+    <hr>
+
+    <form action="/submit-form" method="POST">
+        
+        <p>
+            <label for="full-name">Full Name:</label><br>
+            <input type="text" id="full-name" name="fullName" required placeholder="John Doe">
+        </p>
+
+        <p>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required placeholder="name@example.com">
+        </p>
+
+        <p>
+            <label for="topic">What can we help you with?</label><br>
+            <select id="topic" name="topic" required>
+                <option value="">-- Please choose an option --</option>
+                <option value="general">General Inquiry</option>
+                <option value="support">Technical Support</option>
+                <option value="sales">Sales & Billing</option>
+                <option value="feedback">Feedback</option>
+            </select>
+        </p>
+
+        <fieldset>
+            <legend>Preferred Contact Method:</legend>
+            
+            <input type="radio" id="contact-email" name="preferredContact" value="email" checked>
+            <label for="contact-email">Email</label><br>
+
+            <input type="radio" id="contact-phone" name="preferredContact" value="phone">
+            <label for="contact-phone">Phone</label><br>
+
+            <input type="radio" id="contact-text" name="preferredContact" value="text">
+            <label for="contact-text">Text Message</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Additional Options:</legend>
+            
+            <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+            <label for="newsletter">Subscribe to our monthly newsletter</label><br>
+
+            <input type="checkbox" id="terms" name="terms" value="agreed" required>
+            <label for="terms">I agree to the privacy policy and terms of service</label>
+        </fieldset>
+
+        <p>
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="6" cols="40" required placeholder="Type your message here..."></textarea>
+        </p>
+
+        <p>
+            <button type="submit">Submit Message</button>
+        </p>
+
+    </form>
+
+</body>
+</html>
+
+    </title>
+</head>
+<body>
+    
+</body>
+</html>
